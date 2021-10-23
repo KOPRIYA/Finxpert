@@ -1,6 +1,6 @@
 import java.lang.*;
 import java.util.Scanner;
-class FIV
+class FV
 {
     public static void main(String args[])
     {
