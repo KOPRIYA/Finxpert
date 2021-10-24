@@ -19,7 +19,7 @@ class PV
         
 	      System.out.print("Enter the time period in years: ");
 	      double n = sc.nextInt();
-	      double pv = present_val * ((1-1/Math.pow((1+r/100),n))/(r/100));
+	      double pv = present_val /(Math.pow((1+r/100),n));
 	      System.out.print("Present value of: " +future_val + "at an interest rate of: " +r + "is: " +pv);
   }
 }
