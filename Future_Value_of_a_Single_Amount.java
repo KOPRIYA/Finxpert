@@ -14,7 +14,7 @@ class FV
         if (s.contains("N") OR s.contains("n")){
           System.out.print("Enter the frequency of compounding, please: ");
           double m = sc.nextInt();
-          r = Math.pow((1+r/m),m);
+          r = Math.pow((1+r/m),m)-1;
         }
         
 	      System.out.print("Enter the time period in years: ");
