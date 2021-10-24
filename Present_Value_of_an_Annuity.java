@@ -1,6 +1,6 @@
 import java.lang.*;
 import java.util.Scanner;
-class PV
+class PVA
 {
     public static void main(String args[])
     {
@@ -11,7 +11,7 @@ class PV
 	      double r = sc.nextInt();
 	      System.out.print("Enter the time period in years: ");
 	      double n = sc.nextInt();
-	      double pv = present_val * ((1-1/Math.pow((1+r/100),n))/(r/100));
-	      System.out.print("Present value of the annuity: " +annuity_val + "at an interest rate of: " +r + "is: " +pv);
+	      double pva = annuity_val * ((1-1/Math.pow((1+r/100),n))/(r/100));
+	      System.out.print("Present value of the annuity: " +annuity_val + "at an interest rate of: " +r + "is: " +pva);
   }
 }
